@@ -3,18 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Basic Portfolio</title>
-  <link rel="stylesheet" href="style.css"container">
-    <h1>Hello!</h1>
-    <p>This is a test portfolio website.</p>
-    <button id="showFormBtn">Enter Your Name</button>
+  <title>Library Services</title>
+  <link rel="stylesheetdy>
+  <header>
+    <h1>Welcome to Our Library</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+>#hoursHours</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <form id="nameForm" class="hidden">
-      <input type="text" id="nameInput" placeholder="Your name" required />
-      <button type="submit">Submit</button>
-    </form>
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Book Lending</li>
+        <li>Study Rooms</li>
+        <li>Digital Archives</li>
+      </ul>
+      <img src="library.jpg" alt="Interior of the library with   <h2>Library Hours</h2>
+      <button onclick="toggleHours()">Show/Hide Hours</button>
+      <div id="hours-info" style="display: none;">
+        <p>Mon–Fri: 9am – 6pm</p>
+        <p>Sat: 10am – 4pm</p>
+        <p>Sun: Closed</p>
+      </div>
+    </section>
+  </main>
 
-    <p id="greetingMessage"></p>
-  </div>
+  <footer>
+    <p>&copy; 2025 Library Services</p>
+  </footer>
 
   <script src="script.js"></scriptl>
